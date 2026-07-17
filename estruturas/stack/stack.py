@@ -20,5 +20,6 @@ class Stack:
         return not self.items
     
     def size(self):
-        return len(self.items)
+        if self.items:
+            return len(self.items)
       
