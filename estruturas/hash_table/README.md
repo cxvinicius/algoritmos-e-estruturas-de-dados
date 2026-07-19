@@ -10,14 +10,18 @@ Implementar uma Hash Table do zero para compreender indexação, colisões e ace
 
 ## 📂 Estrutura da pasta
 
-```
+```text
 hash_table/
 │
+├── __init__.py
 ├── hash_table.py
+├── README.md
 ├── examples/
-├── tests/
-└── README.md
-```
+│   ├── __init__.py
+│   └── product_inventory.py
+└── tests/
+    ├── __init__.py
+    └── test_hash_table.py
 
 ## 🚀 Aplicações
 
@@ -28,14 +32,14 @@ hash_table/
 
 ## 📈 Complexidade
 
-| Operação | Complexidade |
-|----------|--------------|
-| Inserção | O(1) |
-| Busca | O(1) |
-| Remoção | O(1) |
+| Operação | Caso médio  | Pior caso |
+|----------|------------ |------------|
+| Inserção | O(1) | O(n) |
+| Busca    | O(1) | O(n) |
+| Remoção  | O(1) | O(n) |
 
 ## 📌 Status
 
 - [x] Implementação
-- [ ] Testes
-- [ ] Mini Projeto
+- [x] Testes
+- [x] Mini Projeto

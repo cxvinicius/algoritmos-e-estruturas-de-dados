@@ -10,14 +10,19 @@ Implementar uma fila do zero para compreender gerenciamento de ordem e processam
 
 ## 📂 Estrutura da pasta
 
-```
+```text
 queue/
 │
-├── queue.py
+├── __init__.py
+├── queue_structure.py
+├── README.md
 ├── examples/
-├── tests/
-└── README.md
-```
+│   ├── __init__.py
+│   └── support_system.py
+└── tests/
+    ├── __init__.py
+    └── test_queue.py
+
 
 ## 🚀 Aplicações
 
@@ -25,16 +30,19 @@ queue/
 - Impressoras
 - Processamento de Tarefas
 
+
+```md
 ## 📈 Complexidade
 
-| Operação | Complexidade |
-|----------|--------------|
-| Enqueue | O(1) |
-| Dequeue | O(1) |
-| Front | O(1) |
+| Operação | Complexidade  |
+|----------|---------------|
+| Enqueue  | O(1)          |
+| Dequeue  | O(n)          |
+| Peek     | O(1)          |
+| Verificar tamanho | O(1) |
 
 ## 📌 Status
 
 - [x] Implementação
-- [ ] Testes
-- [ ] Mini Projeto
+- [x] Testes
+- [x] Mini Projeto

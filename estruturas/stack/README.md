@@ -10,13 +10,18 @@ Implementar uma pilha do zero para compreender operações de inserção, remoç
 
 ## 📂 Estrutura da pasta
 
-```
+```text
 stack/
 │
+├── __init__.py
 ├── stack.py
+├── README.md
 ├── examples/
-├── tests/
-└── README.md
+│   ├── __init__.py
+│   └── browser_history.py
+└── tests/
+    ├── __init__.py
+    └── test_stack.py
 ```
 
 ## 🚀 Aplicações
@@ -29,12 +34,12 @@ stack/
 
 | Operação | Complexidade |
 |----------|--------------|
-| Push | O(1) |
-| Pop | O(1) |
-| Peek | O(1) |
+| Push     | O(1)         |
+| Pop      | O(1)         |
+| Peek     | O(1)         |
 
 ## 📌 Status
 
 - [x] Implementação
-- [ ] Testes
-- [ ] Mini Projeto
+- [x] Testes
+- [x] Mini Projeto
