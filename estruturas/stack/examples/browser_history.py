@@ -1,4 +1,4 @@
-from stack import Stack
+from estruturas.stack.stack import Stack
 
 caixas = Stack()
 

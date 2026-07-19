@@ -1,4 +1,4 @@
-from hash_table import HashTable
+from estruturas.hash_table.hash_table import HashTable
 
 estoque = HashTable(7)
 

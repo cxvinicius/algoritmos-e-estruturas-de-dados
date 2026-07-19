@@ -1,4 +1,4 @@
-from queue_structure import Queue
+from estruturas.queue.queue_structure import Queue
 
 fila = Queue()
 
