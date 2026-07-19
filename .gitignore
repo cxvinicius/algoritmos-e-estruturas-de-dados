@@ -1,15 +1,21 @@
-# ============================
 # Python
-# ============================
 
-# Bytecode
 __pycache__/
 *.py[cod]
+*.pyo
+*.pyd
 
-# Ambientes virtuais
-venv/
+# Virtual Environment
+
 .venv/
+venv/
+env/
+ENV/
 
-# Arquivos de sistema
+# VS Code
+
+.vscode/
+
+# macOS
+
 .DS_Store
-Thumbs.db
