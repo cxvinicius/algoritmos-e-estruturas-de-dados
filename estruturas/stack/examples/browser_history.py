@@ -1,27 +1,29 @@
 from estruturas.stack.stack import Stack
 
-caixas = Stack()
+historico = Stack()
 
-print("\n=== INSERINDO ===")
-caixas.push("CX-001")
-caixas.push("CX-002")
-caixas.push("CX-003")
-caixas.push("CX-004")
-print(f"Caixas na pilha: {caixas.items}")
-print(f"Caixa do topo: {caixas.peek()}")
+print("\n=== NAVEGANDO ===")
+historico.push("google.com")
+historico.push("github.com")
+historico.push("github.com/cxvinicius/projetos")
+historico.push("github.com/cxvinicius/projetos/estrutura-de-dados")
 
-print("\n=== REMOÇÃO ===")
-print(f"Caixa retirada: {caixas.pop()}")
-print(f"Caixa retirada: {caixas.pop()}")
-print(f"Caixas na pilha: {caixas.items}")
+print(f"Páginas visitadas: {historico.items}")
+print(f"Página atual: {historico.peek()}")
+
+print("\n=== VOLTANDO (botão 'voltar' do navegador) ===")
+print(f"Saindo de: {historico.pop()}")
+print(f"Página atual agora: {historico.peek()}")
+
+print(f"Saindo de: {historico.pop()}")
+print(f"Página atual agora: {historico.peek()}")
 
 print("\n=== VERIFICAÇÃO ===")
-print(f"Nenhuma caixa: {caixas.is_empty()}")
-print(f"Quantidade de caixa: {caixas.size()}")
+print(f"Histórico vazio: {historico.is_empty()}")
+print(f"Páginas no histórico: {historico.size()}")
 
-print(f"Caixa retirada: {caixas.pop()}")
-print(f"Caixa retirada: {caixas.pop()}")
+print(f"Saindo de: {historico.pop()}")
+print(f"Saindo de: {historico.pop()}")
 
-print(f"Quantidade de caixa: {caixas.size()}")
-print(f"Nenhuma caixa: {caixas.is_empty()}")
-
+print(f"Páginas no histórico: {historico.size()}")
+print(f"Histórico vazio: {historico.is_empty()}")
